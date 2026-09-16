@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local config
+.venv/
+venv/
+.env
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artefacts
+data/raw/*.csv
+data/processed/*.csv
+models/*.pkl
+models/*.joblib
+logs/*.csv
+
+# Keep placeholders
+!data/raw/README.md
+!data/processed/.gitkeep
+!models/.gitkeep
+
